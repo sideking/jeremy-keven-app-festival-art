@@ -1,1 +1,1 @@
-EZ
+# Japan Media ArtFestival
