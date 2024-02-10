@@ -1,8 +1,12 @@
 /*------ general styles ------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
+ body{
+    overflow-x: hidden;
+ }
 
 .navbar{
     background-color: var(--Black-Sabath);

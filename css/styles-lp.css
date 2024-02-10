@@ -26,12 +26,23 @@ main {
 .navbar-brand:hover {
     color: var(--King-Crimson);
 }
+
+.navbar-brand.active {
+    padding: 4px;
+    border: red 2px solid;
+}
+
+footer {
+    background-color: var(--Black-Sabath);
+}
+
 /*------Hero section ------*/
 
 
 
 
 /*------ Others ------*/
-
-
-
+.row {
+    width: 100%;
+    height: 100vh;
+}
