@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="./css/styles-lp.css"/>
     <title>Document</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg">
+      <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand " href="index.html"><img src="./assets/Image/jogo_lapan_square.png" alt="" width="50" height="50"> </a>
             <a class="navbar-brand" href="index.html">L'application du <br> Japan media art festival</a>
@@ -29,17 +29,36 @@
 
           <!-- Navigation -->
             <div id="mainNav" class="collapse navbar-collapse">
-                <a class="navbar-brand" href="#">L'Application</a>
-                <a class="navbar-brand" href="#">Fontionnalités</a>
-                <a class="navbar-brand" href="#">Tarifs</a>
-                <a class="navbar-brand" href="#">En voir plus</a>
+                <a class="navbar-brand" href="#appli">L'Application</a>
+                <a class="navbar-brand" href="#fonct">Fontionnalités</a>
+                <a class="navbar-brand" href="#plus">En voir plus</a>
+                <a class="navbar-brand" href="#victime">Témoignages</a>
+                <a class="navbar-brand" href="#spam">Infolettre</a>
             </div>
         </div>
     </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="row" id="appli" style="background-color: aqua; height: 500px;">
+
+        </div>
+        <div class="row" id="fonct" style="background-color: gold; height: 500px;">
+          
+        </div>
+        <div class="row" id="plus" style="background-color: aqua; height: 500px;">
+          
+        </div>
+        <div class="row" id="victime" style="background-color: gold; height: 500px;">
+          
+        </div>
+        <div class="row" id="spam" style="background-color: aqua; height: 500px;">
+          
+        </div>
+      </div>
+    </main>
     <footer></footer>
-    <script src="./Media/script/script.js"></script>
+    <script src="./js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

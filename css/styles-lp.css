@@ -1,12 +1,31 @@
 /*------ general styles ------*/
+body {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 .navbar{
     background-color: var(--Black-Sabath);
     color: white;
+
 }
 
+.navbar-brand {
+    margin: 0 10px;
+}
 
+main {
+    margin-top: 86px;
+    background-color: var(--Star-Platinum);
+}
 
+.navbar-brand {
+    color: var(--Star-Platinum);
+}
 
+.navbar-brand:hover {
+    color: var(--King-Crimson);
+}
 /*------Hero section ------*/
 
 

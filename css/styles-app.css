@@ -1,11 +1,24 @@
 /*------ general styles ------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .navbar{
     background-color: var(--Black-Sabath);
-    color: white;
+    color: var(--Gold-Experience);
   }
 
 .navbar-toggler{
     background-color: var(--Hermit-Purple);
+}
+
+.collapse.navbar-collapse .navbar-brand{
+    color: var(--Star-Platinum);
+}
+
+.collapse.navbar-collapse .navbar-brand:hover{
+    color: var(--King-Crimson);
 }
 
 .navbar-brand{
@@ -14,6 +27,14 @@
     bottom: 0;
     left: 0;
     right: 0;
+    color: var(--Gold-Experience);
+}
+
+.navbar-profile{
+    border: 4px ridge var(--Gold-Experience);
+}
+.navbar-brand:hover{
+    color: var(--King-Crimson);
 }
 /*------Hero section ------*/
 
@@ -22,3 +43,12 @@
 
 /*------ Others ------*/
 
+main{
+    background-color:var(--Star-Platinum);
+}
+
+footer{
+    background-color: var(--Black-Sabath);
+    color: var(--Star-Platinum);
+    text-align: center;
+}
