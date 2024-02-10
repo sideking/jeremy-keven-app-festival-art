@@ -53,7 +53,10 @@ footer {
 }
 
 p, p a {
-    text-align: center;
     color: var(--Star-Platinum);
     text-decoration: none;
+}
+
+p a:hover {
+    color: var(--King-Crimson);
 }
