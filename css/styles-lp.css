@@ -34,7 +34,7 @@ main {
 
 footer {
     background-color: var(--Black-Sabath);
-    color: var(--Star-Platinum);
+    
 }
 
 /*------Hero section ------*/
@@ -52,6 +52,8 @@ footer {
     width: 100%;
 }
 
-p {
+p, p a {
     text-align: center;
+    color: var(--Star-Platinum);
+    text-decoration: none;
 }
