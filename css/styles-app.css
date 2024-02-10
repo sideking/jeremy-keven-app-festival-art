@@ -4,9 +4,16 @@
     color: white;
   }
 
-
-.navbar-toggler-icon{
+.navbar-toggler{
     background-color: var(--Hermit-Purple);
+}
+
+.navbar-brand{
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 /*------Hero section ------*/
 
