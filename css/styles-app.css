@@ -35,6 +35,10 @@
     color: var(--Gold-Experience);
 }
 
+span.navbar-toggler-icon{
+    background-color: var(--Black-Sabath);
+}
+
 .navbar-profile{
     border: 4px ridge var(--Gold-Experience);
 }
@@ -69,6 +73,26 @@
     transform: scale(2);
     color: var(--Hermit-Purple);
 }
+/*------boutons------*/
+.overflow{
+    overflow: hidden;
+}
+#bouton {
+    border-top: 3px solid var(--Hermit-Purple);
+    border-bottom: 3px solid var(--Hermit-Purple);
+}
+
+li.list-group-item{
+    background-color: var(--Star-Platinum);
+}
+li.list-group-item.flex-fill{
+    background-color: var(--Star-Platinum);
+}
+button.btn.btn-dark{
+   background-color: var(--Black-Sabath); 
+   border: 2px solid var(--King-Crimson);
+   color: var(--Gold-Experience);
+}
 /*------ Others ------*/
 
 main{
@@ -79,6 +103,6 @@ main{
 footer{
     background-color: var(--Black-Sabath);
     color: var(--Star-Platinum);
-
+    border-top: 3px solid var(--King-Crimson);
 }
 
