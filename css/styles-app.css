@@ -1,9 +1,13 @@
 /*------ general styles ------*/
+.navbar{
+    background-color: var(--Black-Sabath);
+    color: white;
+  }
 
 
-
-
-
+.navbar-toggler-icon{
+    background-color: var(--Hermit-Purple);
+}
 /*------Hero section ------*/
 
 

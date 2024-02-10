@@ -1,4 +1,8 @@
 /*------ general styles ------*/
+.navbar{
+    background-color: var(--Black-Sabath);
+    color: white;
+}
 
 
 
@@ -10,4 +14,6 @@
 
 
 /*------ Others ------*/
+
+
 
