@@ -2,6 +2,7 @@
 body {
     height: 100vh;
     overflow-y: scroll;
+    background-color: var(--Star-Platinum);
 }
 
 .navbar{
@@ -16,7 +17,6 @@ body {
 
 main {
     margin-top: 86px;
-    background-color: var(--Star-Platinum);
 }
 
 .navbar-brand {
@@ -52,11 +52,16 @@ footer {
     width: 100%;
 }
 
-p, p a {
+.footer p, p a {
     color: var(--Star-Platinum);
     text-decoration: none;
 }
 
 p a:hover {
     color: var(--King-Crimson);
+}
+
+main .container {
+    border-left: 3px solid var(--King-Crimson);
+    border-right: 3px solid var(--King-Crimson);
 }

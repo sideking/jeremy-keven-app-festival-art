@@ -6,6 +6,7 @@
 }
  body{
     overflow-x: hidden;
+    background-color: var(--Star-Platinum);
  }
 
 .navbar{
@@ -40,14 +41,38 @@
 .navbar-brand:hover{
     color: var(--King-Crimson);
 }
-/*------Hero section ------*/
+/*------search section ------*/
+.form-control{
+    border-radius: 10px;
+    background-color: var(--Black-Sabath);
+    border: 2px solid var(--King-Crimson);
+}
 
+.form-control:focus {
+    color: var(--Gold-Experience);
+    background-color: var(--Black-Sabath);
+    border: 2px solid var(--King-Crimson);
+}
 
+.form-control::placeholder { 
+    opacity: 1;
+    color: var(--Gold-Experience);
 
+ }
 
+.input-group-text{
+    background-color: var(--Star-Platinum);
+    border: 2px solid var(--King-Crimson);
+}
+
+.bi.bi-search{
+    transform: scale(2);
+    color: var(--Hermit-Purple);
+}
 /*------ Others ------*/
 
 main{
+    margin-top: 100px;
     background-color:var(--Star-Platinum);
 }
 
