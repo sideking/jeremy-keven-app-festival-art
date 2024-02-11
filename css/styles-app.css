@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Modern-Antiqua";
 }
  body{
     height: 100vh;
@@ -34,6 +35,8 @@
     left: 0;
     right: 0;
     color: var(--Gold-Experience);
+    font-family: "Japon";
+    font-size: 25px;
 }
 
 span.navbar-toggler-icon{
