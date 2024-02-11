@@ -5,6 +5,7 @@
     margin: 0;
 }
  body{
+    height: 100vh;
     overflow-x: hidden;
     background-color: var(--Star-Platinum);
  }

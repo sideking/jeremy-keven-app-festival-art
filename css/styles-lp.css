@@ -75,7 +75,13 @@ button.btn.btn-primary:active {
     width: 100%;
     aspect-ratio: 5/9;
     border-radius: 10px;
-    transform: scale(calc());
+    transform: scale();  
+}
+
+@media screen and (max-width: 900px ) {
+    .cadre {
+        transform: scale(0.7);  
+    }
 }
 
 .cadre iframe {
