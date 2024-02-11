@@ -78,7 +78,7 @@ button.btn.btn-primary:active {
     transform: scale();  
 }
 
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 991px ) {
     .cadre {
         transform: scale(0.7);  
     }
