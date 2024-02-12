@@ -1,11 +1,11 @@
-/*jojo references*/
+/*jojo references
 :root {
-    --Black-Sabath: #0B2027;
-    --Hermit-Purple: #71697A;
-    --King-Crimson: #DD1C1A;
+    --bs-dark: #0B2027;
+    --bs-primary: #71697A;
+    --bs-secondary: #DD1C1A;
     --Star-Platinum: #DDDDDD;
-    --Gold-Experience: #C6A15B;
-}
+    --bs-info: #C6A15B;
+}*/
 /*------ fonts ------*/
 @font-face {
     font-family: "Cyberthrone" ;
@@ -25,38 +25,38 @@
 h1{
     font-size: 60px;
     font-weight: bolder;
-    color: var(--Gold-Experience);
+    color: var(--bs-info);
     font-family: "Japon";
 }
 
 h2{
     font-size: 30px;
     font-weight: bolder;
-    color: var(--Black-Sabath);
+    color: var(--bs-dark);
 }
 
 h3{
     font-size: 26px;
     font-weight: bolder;
-    color: var(--Hermit-Purple);
+    color: var(--bs-primary);
 }
 
 h4{
     font-size: 22px;
     font-weight: bolder;
-    color: var(--Black-Sabath);
+    color: var(--bs-dark);
 }
 
 h5{
     font-size: 18px;
     font-weight: bolder;
-    color: var(--Gold-Experience);
+    color: var(--bs-info);
 }
 
 h6{
     font-size: 14px;
     font-weight: bolder;
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
 }
 /*------ general styles ------*/
 

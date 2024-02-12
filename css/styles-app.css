@@ -8,24 +8,24 @@
  body{
     height: 100vh;
     overflow-x: hidden;
-    background-color: var(--Star-Platinum);
+    background-color: var(--bs-light);
  }
 
 .navbar{
-    background-color: var(--Black-Sabath);
-    color: var(--Gold-Experience);
+    background-color: var(--bs-dark);
+    color: var(--bs-info);
   }
 
 .navbar-toggler{
-    background-color: var(--Hermit-Purple);
+    background-color: var(--bs-primary);
 }
 
 .collapse.navbar-collapse .navbar-brand{
-    color: var(--Star-Platinum);
+    color: var(--bs-light);
 }
 
 .collapse.navbar-collapse .navbar-brand:hover{
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
 }
 
 .navbar-brand{
@@ -34,80 +34,80 @@
     bottom: 0;
     left: 0;
     right: 0;
-    color: var(--Gold-Experience);
+    color: var(--bs-info);
     font-family: "Japon";
     font-size: 25px;
 }
 
 span.navbar-toggler-icon{
-    background-color: var(--Black-Sabath);
+    background-color: var(--bs-dark);
 }
 
 .navbar-profile{
-    border: 4px ridge var(--Gold-Experience);
+    border: 4px ridge var(--bs-info);
 }
 .navbar-brand:hover{
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
 }
 /*------search section ------*/
 
 .form-control{
     border-radius: 10px;
-    background-color: var(--Black-Sabath);
-    border: 2px solid var(--King-Crimson);
+    background-color: var(--bs-dark);
+    border: 2px solid var(--bs-secondary);
 }
 
 .form-control:focus {
-    color: var(--Gold-Experience);
-    background-color: var(--Black-Sabath);
-    border: 2px solid var(--King-Crimson);
+    color: var(--bs-info);
+    background-color: var(--bs-dark);
+    border: 2px solid var(--bs-secondary);
 }
 
 .form-control::placeholder { 
     opacity: 1;
-    color: var(--Gold-Experience);
+    color: var(--bs-info);
 
  }
 
 .input-group-text{
-    background-color: var(--Star-Platinum);
-    border: 2px solid var(--King-Crimson);
+    background-color: var(--bs-light);
+    border: 2px solid var(--bs-secondary);
 }
 
 .bi.bi-search{
     transform: scale(2);
-    color: var(--Hermit-Purple);
+    color: var(--bs-primary);
 }
 /*------boutons------*/
 .overflow{
     overflow: hidden;
 }
 #bouton {
-    border-top: 3px solid var(--Hermit-Purple);
-    border-bottom: 3px solid var(--Hermit-Purple);
+    border-top: 3px solid var(--bs-primary);
+    border-bottom: 3px solid var(--bs-primary);
 }
 
 li.list-group-item{
-    background-color: var(--Star-Platinum);
+    background-color: var(--bs-light);
 }
 li.list-group-item.flex-fill{
-    background-color: var(--Star-Platinum);
+    background-color: var(--bs-light);
 }
 button.btn.btn-dark{
-   background-color: var(--Black-Sabath); 
-   border: 2px solid var(--King-Crimson);
-   color: var(--Gold-Experience);
+  
+   border: 2px solid var(--bs-secondary);
+   color: var(--bs-info);
 }
 /*------ Others ------*/
 
 main{
     margin-top: 100px;
-    background-color:var(--Star-Platinum);
+    background-color:var(--bs-light);
 }
 
 footer{
-    background-color: var(--Black-Sabath);
-    color: var(--Star-Platinum);
-    border-top: 3px solid var(--King-Crimson);
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    border-top: 3px solid var(--bs-secondary);
 }
 

@@ -6,13 +6,13 @@
 body {
     height: 100vh;
     overflow-y: scroll;
-    background-color: var(--Star-Platinum);
+    background-color: var(--bs-light);
 }
 
 /*------ NavBar ------*/
 
 .navbar{
-    background-color: var(--Black-Sabath);
+    background-color: var(--bs-dark);
     color: white;
 
 }
@@ -22,11 +22,11 @@ body {
 }
 
 .navbar-brand {
-    color: var(--Star-Platinum);
+    color: var(--bs-light);
 }
 
 .navbar-brand:hover {
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
 }
 
 .navbar-brand.active {
@@ -41,17 +41,17 @@ main {
 }
 
 main .container {
-    border-left: 3px solid var(--King-Crimson);
+    border-left: 3px solid var(--bs-secondary);
 }
 
 .row.main {
     width: 100%;
     height: 100%;
-    border-right: 3px solid var(--King-Crimson);
+    border-right: 3px solid var(--bs-secondary);
 }
 
 .row.main:nth-child(odd) {
-    background-color: var(--Hermit-Purple);
+    background-color: var(--bs-primary);
 }
 
 .row.main:nth-child(2),
@@ -65,32 +65,32 @@ main .container {
 /*------ Hero section ------*/
 .pitch {
     font-size: 35px;
-    color: var(--Star-Platinum);
+    color: var(--bs-light);
 }
 
 .bienfaits {
     text-align: center;
     font-size: 18px;
-    color: var(--Star-Platinum);
-    border: var(--King-Crimson) 2px solid;
+    color: var(--bs-light);
+    border: var(--bs-secondary) 2px solid;
     padding: 5px;
 }
 
 button.btn.btn-primary {
-    background-color: var(--Gold-Experience);
+    background-color: var(--bs-info);
     font-size: 20px;
     font-weight: bold;
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
     font-family: "Modern-Antiqua";
-    border: var(--Star-Platinum) 4px solid;
+    border: var(--bs-light) 4px solid;
 }
 
 button.btn.btn-primary:active {
-    background-color: var(--Black-Sabath);
+    background-color: var(--bs-dark);
     font-size: 20px;
     font-weight: bold;
-    color: var(--Gold-Experience);
-    border: var(--King-Crimson) 4px solid;
+    color: var(--bs-info);
+    border: var(--bs-secondary) 4px solid;
 }
 
 .cadre {
@@ -105,21 +105,11 @@ button.btn.btn-primary:active {
     height: 100%;
     border-radius: 10px;
 }
-/*
-@media screen and (max-width: 991px) {
-    .cadre {
-        transform: scale(0.7); 
-    }
-
-    .cadre iframe {
-        border-radius: 20px;
-    }
-}*/
 
 /*------ Footer ------*/
 
 footer {
-    background-color: var(--Black-Sabath);
+    background-color: var(--bs-dark);
     
 }
 
@@ -128,12 +118,12 @@ footer {
 }
 
 .footer p, p a {
-    color: var(--Star-Platinum);
+    color: var(--bs-light);
     text-decoration: none;
 }
 
 p a:hover {
-    color: var(--King-Crimson);
+    color: var(--bs-secondary);
 }
 
 /*------ Others ------*/
