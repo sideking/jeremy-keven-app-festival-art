@@ -146,14 +146,5 @@ p a:hover {
 
 p {
     font-family: "Modern-Antiqua";
-    font-size: 10px;
 }
 
-img.card-images {
-    object-fit: contain;
-    height: 20vh;
-}
-
-p.card-text{
-    font-size: 0.5rem;
-}
