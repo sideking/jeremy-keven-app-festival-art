@@ -111,3 +111,11 @@ footer{
     border-top: 3px solid var(--bs-secondary);
 }
 
+img.card-images {
+    object-fit: cover;
+    height: 20vh;
+}
+
+p.card-text{
+    font-size: 0.6rem;
+}
