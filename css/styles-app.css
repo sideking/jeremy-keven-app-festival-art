@@ -119,3 +119,12 @@ img.card-images {
 p.card-text{
     font-size: 0.6rem;
 }
+
+img.rounded-circle {
+    height: 15%;
+    width: 15%;
+ }
+
+ p.offset-8{
+    font-size: 0.8rem;
+ }
