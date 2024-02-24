@@ -6,9 +6,10 @@
     font-family: "Modern-Antiqua";
 }
  body{
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     background-color: var(--bs-light);
+    overflow-x: hidden;
  }
 
 .navbar{
@@ -111,13 +112,29 @@ footer{
     border-top: 3px solid var(--bs-secondary);
 }
 
+.card.caroussel {
+    background-color: var(--bs-light);
+    max-width: 200px;
+    border: 3px solid var(--bs-dark);
+}
+
 img.card-images {
+    width: 75%;
     object-fit: cover;
     height: 20vh;
+    border: 3px solid var(--bs-secondary);
+    border-radius: 20%;
+}
+
+h3.card-title {
+    font-weight: bolder;
+    color: var(--bs-primary);
 }
 
 p.card-text{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--bs-dark);
 }
 
  p.offset-8{
@@ -125,6 +142,28 @@ p.card-text{
  }
 
  .rounded-circle{
-    height: 35%;
-    width: 35%;
+    display: inline;
+    height: 25%;
+    width: 25%;
  }
+
+ p.ms-auto.mb-0{
+    font-size: 0.8rem;
+    color: var(--bs-info);
+    background-color: var(--bs-dark);
+    border: 10px solid var(--bs-dark);
+    border-radius: 40%;
+ }
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    font-weight: bold;
+    color: var(--bs-dark);
+}
+
+#caroussel {
+    width: 140%;
+}

@@ -1,6 +1,6 @@
 /*jojo references
 :root {
-    --bs-dark: #0B2027;
+    --Black-Sabath: #0B2027;
     --bs-primary: #71697A;
     --bs-secondary: #DD1C1A;
     --Star-Platinum: #DDDDDD;
@@ -33,12 +33,14 @@ h2{
     font-size: 30px;
     font-weight: bolder;
     color: var(--bs-dark);
+    font-family: "Modern-Antiqua";
 }
 
 h3{
     font-size: 26px;
     font-weight: bolder;
     color: var(--bs-primary);
+    font-family: "Modern-Antiqua";
 }
 
 h4{
