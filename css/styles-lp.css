@@ -51,7 +51,7 @@ main .container {
     border-right: 3px solid var(--bs-secondary);
 }
 
-#hero, #temoin, #email{
+#hero, #temoin, #temoin-card, #email{
     background-color: var(--bs-primary);
 }
 
@@ -143,6 +143,11 @@ hr {
     color: var(--bs-light);
 }
 
+#section-testimonials > .row > div > .card {
+    min-height: 400px;
+    border: solid 2px var(--bs-secondary);
+}
+
 .card > img {
     height:  20vh;
     object-fit: cover;
@@ -156,7 +161,19 @@ hr {
     object-position: 0 20%;
 }
 
+.bi-chat-quote {
+    margin-left: 80%;
+}
 
+@media screen and (max-width: 991px) {
+    .bit-down {
+        object-position: 0 25%;
+    }
+    
+    .bit-bit-down {
+        object-position: 0 40%;
+    }
+}
 
 /*------ Footer ------*/
 

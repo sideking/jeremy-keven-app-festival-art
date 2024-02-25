@@ -181,3 +181,19 @@ h2{
 #caroussel {
     width: 140%;
 }
+
+.rounded-circle.full{
+    object-fit: contain;
+    display: inline-block;
+    height:25%;
+    width: 25%;
+    transform: scaleX(0.8);
+ }
+
+ .rounded-circle.half{
+    object-fit: contain;
+    display: inline-block;
+    height:25%;
+    width: 25%;
+    transform: scaleY(1.8);
+ }
