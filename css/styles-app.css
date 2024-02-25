@@ -184,10 +184,12 @@ h2.oeuvre{
 
 button.accordion-button {
     background-color: var(--bs-primary);
+    color: var(--bs-info);
 }
 
 button.accordion-button:active {
-    background-color: var(--bs-secondary);
+    background-color: var(--bs-info);
+    color: var(--bs-secondary);
 }
 
 .modal-body {
