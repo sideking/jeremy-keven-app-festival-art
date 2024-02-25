@@ -9,19 +9,14 @@
       href="./assets/Image/average.png"
       type="image/x-icon"
     />
-    <link
-      href="./scss/custom_bootstrap.css"
-      rel="stylesheet"
-    />
+    <link href="./scss/custom_bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/styles-lp.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav
-        id="navbar"
-        class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img
@@ -33,7 +28,8 @@
           </a>
           <a class="navbar-brand Festival-Name" href="index.html"
             >L'application du <br />
-            Japan media art festival</a>
+            Japan media art festival</a
+          >
 
           <!-- Hamburger button -->
           <button
@@ -42,150 +38,301 @@
             data-bs-target="#mainNav"
             aria-controls="mainNav"
             aria-expanded="false"
-            aria-label="Affichage/masquage de la navigation">
+            aria-label="Affichage/masquage de la navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <!-- Navigation -->
           <div id="mainNav" class="collapse navbar-collapse">
             <a class="nav-link navbar-brand" href="#hero">L'Application</a>
-            <a class="nav-link navbar-brand" href="#fonction">Fontionnalités</a>
-            <a class="nav-link navbar-brand" href="#plus">En voir plus</a>
-            <a class="nav-link navbar-brand" href="#temoin">Témoignages</a>
+            <a class="nav-link navbar-brand" href="#section-features"
+              >Fontionnalités</a
+            >
+            <a class="nav-link navbar-brand" href="#section-testimonials"
+              >Témoignages</a
+            >
+            <a class="nav-link navbar-brand" href="#FAQ">En voir plus</a>
             <a class="nav-link navbar-brand" href="#email">Infolettre</a>
           </div>
         </div>
       </nav>
     </header>
     <main data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0">
-      <div class="container">
-        <div class="row main justify-content-center" id="hero">
+      <div class="container" id="hero">
+        <div class="row main justify-content-center" id="appli">
           <div
-            class="col-12 col-lg-5 offset-xl-1 justify-content-center d-flex flex-column  align-items-center align-items-lg-start">
-            <p class="pitch mb-0">Télécharger <br> l'application <br> officielle du</p><br><h1>Japan Media <br> Arts Festival</h1> <br>
-            <p class="bienfaits"> Tirez profit de cette application <br> pour une meilleure expérience et pour suivre vos artiste favoris</p>
-            <button type="button" class="btn btn-primary">Télécharger maintenant</button>
+            class="col-12 col-lg-5 offset-xl-1 justify-content-center d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <p class="pitch mb-0">
+              Télécharger <br />
+              l'application <br />
+              officielle du
+            </p>
+            <br />
+            <h1>
+              Japan Media <br />
+              Arts Festival
+            </h1>
+            <br />
+            <p class="bienfaits">
+              Tirez profit de cette application <br />
+              pour une meilleure expérience et pour suivre vos artiste favoris
+            </p>
+            <button type="button" class="btn btn-primary">
+              Télécharger maintenant
+            </button>
           </div>
           <div
-            class="col-10 col-lg-6 col-xl-5 offset-lg-1 justify-content-xl-start d-flex justify-content-center align-items-center mt-3">
-          <div class="cadre"><iframe src="./App/index.html" frameborder="0"></iframe></div>
+            class="col-10 col-lg-6 col-xl-5 offset-lg-1 justify-content-xl-start d-flex justify-content-center align-items-center mt-3"
+          >
+            <div class="cadre">
+              <iframe src="./App/index.html" frameborder="0"></iframe>
+            </div>
           </div>
         </div>
       </div>
       <div class="container" id="section-features">
         <div class="row main justify-content-center" id="fonction">
           <div class="col-6 text-center pt-4"><h2>Fonctionnalités</h2></div>
-          <div class="col-10 text-center pb-4"><p>En téléchargeant notre appli, vous allez profiter d'une foule de fonctionnalités qui vous permettront de vivre une expérience totale et complète lors des expositions et des performances du festival.</p></div>
+          <div class="col-10 text-center pb-4">
+            <p>
+              En téléchargeant notre appli, vous allez profiter d'une foule de
+              fonctionnalités qui vous permettront de vivre une expérience
+              totale et complète lors des expositions et des performances du
+              festival.
+            </p>
+          </div>
         </div>
         <div class="row main">
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40"  fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-calendar"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  />
                 </svg>
-                <hr>
+                <hr />
                 <h3 class="card-title">Programmation complète et modulable</h3>
-                <hr>
-                <p>Visionnez en un éclair tout ce qui s'offre à vous : œuvres, expos et performances selon un horaire bien précis. De plus, vous pourrez filtrer cette programmation en fonction de vos intérêts.</p>
+                <hr />
+                <p>
+                  Visionnez en un éclair tout ce qui s'offre à vous : œuvres,
+                  expos et performances selon un horaire bien précis. De plus,
+                  vous pourrez filtrer cette programmation en fonction de vos
+                  intérêts.
+                </p>
               </div>
-      
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
-            <div class="card-body">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-calendar-heart" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1m7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
-              </svg>
-              <hr>
-              <h3 class="card-title">Création d'un horaire personnalisé</h3>
-              <hr>
-              <p>Dans l'appli, appuyez sur Aimer pour certaines activités, œuvres ou performances afin de vous construire un horaire personnalisé et ainsi ne rien manquer.</p>
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-calendar-heart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1m7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"
+                  />
+                </svg>
+                <hr />
+                <h3 class="card-title">Création d'un horaire personnalisé</h3>
+                <hr />
+                <p>
+                  Dans l'appli, appuyez sur Aimer pour certaines activités,
+                  œuvres ou performances afin de vous construire un horaire
+                  personnalisé et ainsi ne rien manquer.
+                </p>
+              </div>
             </div>
-    
-          </div></div>
+          </div>
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
-            <div class="card-body">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
-              </svg>
-              <hr>
-              <h3 class="card-title">Catalogue des œuvres et artistes</h3>
-              <hr>
-              <p>Fouillez parmi des centaines d'œuvres, classées par artiste, par type d'œuvre ou par année d'édition du festival. Cette section regorge de contenus qui vous permettent d'avoir une meilleure vision des œuvres présentées, ainsi qu'une grande quantité de médias qui les documentent.</p>
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-person-lines-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"
+                  />
+                </svg>
+                <hr />
+                <h3 class="card-title">Catalogue des œuvres et artistes</h3>
+                <hr />
+                <p>
+                  Fouillez parmi des centaines d'œuvres, classées par artiste,
+                  par type d'œuvre ou par année d'édition du festival. Cette
+                  section regorge de contenus qui vous permettent d'avoir une
+                  meilleure vision des œuvres présentées, ainsi qu'une grande
+                  quantité de médias qui les documentent.
+                </p>
+              </div>
             </div>
-    
-          </div></div>
+          </div>
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
-            <div class="card-body">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-ticket-detailed" viewBox="0 0 16 16">
-                <path d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M5 7a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2z"/>
-                <path d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6zM1.5 4a.5.5 0 0 0-.5.5v1.05a2.5 2.5 0 0 1 0 4.9v1.05a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-1.05a2.5 2.5 0 0 1 0-4.9V4.5a.5.5 0 0 0-.5-.5z"/>
-              </svg>
-              <hr>
-              <h3 class="card-title">Achat de billets intégré à l'appli</h3>
-              <hr>
-              <p>Simplifiez-vous la vie et accédez à la réservation gratuite ou payante des différentes expositions ou performances et ce, à même l'appli, au bout des doigts.</p>
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-ticket-detailed"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M5 7a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2z"
+                  />
+                  <path
+                    d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6zM1.5 4a.5.5 0 0 0-.5.5v1.05a2.5 2.5 0 0 1 0 4.9v1.05a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-1.05a2.5 2.5 0 0 1 0-4.9V4.5a.5.5 0 0 0-.5-.5z"
+                  />
+                </svg>
+                <hr />
+                <h3 class="card-title">Achat de billets intégré à l'appli</h3>
+                <hr />
+                <p>
+                  Simplifiez-vous la vie et accédez à la réservation gratuite ou
+                  payante des différentes expositions ou performances et ce, à
+                  même l'appli, au bout des doigts.
+                </p>
+              </div>
             </div>
-    
-          </div></div>
+          </div>
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
-            <div class="card-body">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-              </svg>
-              <hr>
-              <h3 class="card-title">Repérage d'amis sur la carte interactive</h3>
-              <hr>
-              <p>Partagez votre position avec vos amis qui participent au festival, demandez-leur la même chose et vous pourrez facilement vous retrouver pour apprécier l'art, tous ensemble, selon vos préférences communes.</p>
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-geo-alt"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                  />
+                  <path
+                    d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                  />
+                </svg>
+                <hr />
+                <h3 class="card-title">
+                  Repérage d'amis sur la carte interactive
+                </h3>
+                <hr />
+                <p>
+                  Partagez votre position avec vos amis qui participent au
+                  festival, demandez-leur la même chose et vous pourrez
+                  facilement vous retrouver pour apprécier l'art, tous ensemble,
+                  selon vos préférences communes.
+                </p>
+              </div>
             </div>
-    
-          </div></div>
+          </div>
           <div class="col-12 col-md-6 col-lg-4 pb-4">
             <div class="card">
-            <div class="card-body">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
-                <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"/>
-                <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"/>
-              </svg>
-              <hr>
-              <h3 class="card-title">Contrôle de certaines œuvres exposées</h3>
-              <hr>
-              <p>Certaines œuvres ou performances interactives vous offrent la possibilité d'y ajouter un peu de vous et de contrôler une partie de l'œuvre ou de la scénographie. Tout ça, à même l'appli !</p>
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  fill="currentColor"
+                  class="bi bi-controller"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"
+                  />
+                  <path
+                    d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"
+                  />
+                </svg>
+                <hr />
+                <h3 class="card-title">
+                  Contrôle de certaines œuvres exposées
+                </h3>
+                <hr />
+                <p>
+                  Certaines œuvres ou performances interactives vous offrent la
+                  possibilité d'y ajouter un peu de vous et de contrôler une
+                  partie de l'œuvre ou de la scénographie. Tout ça, à même
+                  l'appli !
+                </p>
+              </div>
             </div>
-    
-          </div></div>
+          </div>
         </div>
       </div>
       <div class="container" id="section-testimonials">
         <div class="row main justify-content-center" id="temoin">
           <div class="col-6 text-center pt-4"><h2>Témoignages</h2></div>
-          <div class="col-10 text-center pb-4"><p>Personne ayant le malheur d'avoir essayer notre application!</p></div>
+          <div class="col-10 text-center pb-4">
+            <p>Personne ayant le malheur d'avoir essayer notre application!</p>
+          </div>
         </div>
         <div class="row main justify-content-center" id="temoin-card">
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_albert-dera-ILip77SbmOE-unsplash.jpg" class="card-img-top bit-down">
+            <div class="card">
+              <img
+                src="assets/Image/personne_albert-dera-ILip77SbmOE-unsplash.jpg"
+                class="card-img-top bit-down"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">albert dera</h3>
-                <p>À part le stretch sur les photos de quelques auteurs c'est une bonne appli!</p>
+                <p>
+                  À part le stretch sur les photos de quelques auteurs c'est une
+                  bonne appli!
+                </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_drew-hays-Kt8eGw8_S8Y-unsplash.jpg" class="card-img-top bit-down">
+            <div class="card">
+              <img
+                src="assets/Image/personne_drew-hays-Kt8eGw8_S8Y-unsplash.jpg"
+                class="card-img-top bit-down"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">drew hays</h3>
                 <p>Je crois que les dévéloppeur sont très fatiguer.</p>
@@ -193,11 +340,25 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_alyona-grishina-BBmi4nJjKk8-unsplash.jpg" class="card-img-top bit-bit-down">
+            <div class="card">
+              <img
+                src="assets/Image/personne_alyona-grishina-BBmi4nJjKk8-unsplash.jpg"
+                class="card-img-top bit-bit-down"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">alyona grishina</h3>
                 <p>WE GOODING</p>
@@ -205,11 +366,25 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_andrey-zvyagintsev-x0c6vTO5ibA-unsplash.jpg" class="card-img-top bit-down">
+            <div class="card">
+              <img
+                src="assets/Image/personne_andrey-zvyagintsev-x0c6vTO5ibA-unsplash.jpg"
+                class="card-img-top bit-down"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">andrey zvyagintsev</h3>
                 <p>J'aurais aimer voir des oeuvres d'autre part du globe...!</p>
@@ -217,11 +392,25 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_kyle-broad-P9rQn2qcEV0-unsplash.jpg" class="card-img-top">
+            <div class="card">
+              <img
+                src="assets/Image/personne_kyle-broad-P9rQn2qcEV0-unsplash.jpg"
+                class="card-img-top"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">kyle broad</h3>
                 <p>C'était bon...</p>
@@ -229,14 +418,124 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 pt-4">
-            <div class="card"><img src="assets/Image/personne_sander-weeteling-UFZF60FBs3w-unsplash.jpg" class="card-img-top">
+            <div class="card">
+              <img
+                src="assets/Image/personne_sander-weeteling-UFZF60FBs3w-unsplash.jpg"
+                class="card-img-top"
+              />
               <div class="card-body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
-                  <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"/>
-                  <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  fill="currentColor"
+                  class="bi bi-chat-quote"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105"
+                  />
+                  <path
+                    d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+                  />
                 </svg>
                 <h3 class="card-title">sander weeteling</h3>
                 <p>Pourquoi mon micro est activé?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="FAQ">
+        <div class="row main">
+          <h2 class="py-4">FAQ - Foire aux questions</h2>
+          <div class="accordion accordion-flush" id="FAQ-parent">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="FAQ1-title">
+                <button
+                  class="accordion-button collapsed bg-dark border border-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#FAQ1-collapse"
+                  aria-expanded="true"
+                  aria-controls="FAQ1-collapse"
+                >
+                  Quel est le prix de l'abonnement?
+                </button>
+              </h2>
+              <div
+                id="FAQ1-collapse"
+                class="accordion-collapse collapse bg-dark text-info"
+                aria-labelledby="headingOne"
+                data-bs-parent="#FAQ-parent"
+              >
+                <div class="accordion-body">L'abonnement est fixé à 50 dollars, offrant un excellent rapport qualité-prix. Cette tarification compétitive garantit un accès complet à nos services, englobant une gamme diversifiée de fonctionnalités. À ce prix abordable, les abonnés bénéficient d'une expérience enrichissante et sans compromis. Nous nous engageons à fournir un service exceptionnel tout en maintenant une accessibilité financière. Cette approche équitable reflète notre volonté d'offrir à chacun l'opportunité de profiter de notre plateforme. La transparence et la simplicité caractérisent notre modèle tarifaire, assurant la satisfaction des utilisateurs. Rejoignez-nous pour vivre une expérience exceptionnelle sans peser sur votre portefeuille.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="FAQ2-title">
+                <button
+                  class="accordion-button collapsed bg-dark border border-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#FAQ2-collapse"
+                  aria-expanded="true"
+                  aria-controls="FAQ2-collapse"
+                >
+                  Est-il possible de contacter l'auteur?
+                </button>
+              </h2>
+              <div
+                id="FAQ2-collapse"
+                class="accordion-collapse collapse bg-dark text-info"
+                aria-labelledby="headingOne"
+                data-bs-parent="#FAQ-parent"
+              >
+                <div class="accordion-body">Sur l'application, la communication directe avec l'auteur d'une œuvre numérique est restreinte pour des raison de vie privé et dû au nombre d'utilisateur de l'application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="FAQ2-title">
+                <button
+                  class="accordion-button collapsed bg-dark border border-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#FAQ3-collapse"
+                  aria-expanded="true"
+                  aria-controls="FAQ3-collapse"
+                >
+                Est-il possible de télécharger des images a partir de l'application?
+                </button>
+              </h2>
+              <div
+                id="FAQ3-collapse"
+                class="accordion-collapse collapse bg-dark text-info"
+                aria-labelledby="headingOne"
+                data-bs-parent="#FAQ-parent"
+              >
+                <div class="accordion-body">
+                  Non, actuellement, l'application ne prend pas en charge le téléchargement direct d'images. Les fonctionnalités actuelles se concentrent sur la création, l'exploration et le partage d'œuvres au sein de la plateforme. Les utilisateurs peuvent admirer et interagir avec les images présentes, mais l'option de téléchargement n'est pas disponible pour préserver la confidentialité des artistes et contrôler la qualité du contenu partagé. Cependant, nous travaillons constamment à améliorer l'expérience utilisateur, et vos commentaires sont précieux pour guider nos développements futurs. Restez à l'écoute des mises à jour et des évolutions de l'application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="FAQ4-title">
+                <button
+                  class="accordion-button collapsed bg-dark border border-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#FAQ4-collapse"
+                  aria-expanded="true"
+                  aria-controls="FAQ4-collapse"
+                >
+                  Comment puis-je contacter le support technique?
+                </button>
+              </h2>
+              <div
+                id="FAQ4-collapse"
+                class="accordion-collapse collapse bg-dark text-info"
+                aria-labelledby="headingOne"
+                data-bs-parent="#FAQ-parent"
+              >
+                <div class="accordion-body">Non, actuellement, il n'est pas possible de contacter le support technique directement depuis l'application. Cependant, vous pouvez accéder à notre centre d'aide complet en ligne via notre site web. Nous y avons rassemblé des réponses aux questions fréquemment posées ainsi que des guides d'utilisation détaillés pour vous aider. De plus, vous pouvez également nous contacter par e-mail à l'adresse strovanovich@yahoo.ru . Notre équipe dédiée se fera un plaisir de répondre à toutes vos questions et de vous fournir l'assistance nécessaire dans les plus brefs délais.</div>
               </div>
             </div>
           </div>
@@ -247,7 +546,8 @@
     <footer class="mt-3 p-3">
       <div class="container">
         <div
-          class="row justify-content-center justify-content-lg-between footer text-center text-lg-start">
+          class="row justify-content-center justify-content-lg-between footer text-center text-lg-start"
+        >
           <div class="col-12 col-lg-3">
             <p>
               Jérémy Roy-côté <br />
@@ -258,7 +558,8 @@
             <p class="text-lg-end m-lg-0">
               <a
                 href="https://github.com/sideking/jeremy-keven-app-festival-art/tree/main"
-                >https://github.com/sideking/jeremy-keven-app-festival-art/tree/main</a>
+                >https://github.com/sideking/jeremy-keven-app-festival-art/tree/main</a
+              >
             </p>
             <p class="text-lg-end">@2024</p>
           </div>

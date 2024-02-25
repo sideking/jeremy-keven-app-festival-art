@@ -17,6 +17,7 @@ body {
 
 }
 
+
 .navbar-brand {
     margin: 0 10px;
 }
@@ -51,8 +52,9 @@ main .container {
     border-right: 3px solid var(--bs-secondary);
 }
 
-#hero, #temoin, #temoin-card, #email{
+#appli, #temoin, #temoin-card{
     background-color: var(--bs-primary);
+    padding-bottom: 50px;
 }
 
 /*------ Hero section ------*/
@@ -175,11 +177,30 @@ hr {
     }
 }
 
+/*------ FAQ ------*/
+
+#FAQ > .row > h2 {
+    text-align: center;
+}
+
+.accordion-button {
+    color: var(--bs-info);
+}
+
+.accordion-button.bg-dark.border.border-secondary {
+    color: var(--bs-info);
+}
+
+
+.accordion-button.bg-dark.border.border-secondary:hover  {
+    color: var(--bs-secondary);
+}
+
+
 /*------ Footer ------*/
 
 footer {
     background-color: var(--bs-dark);
-    
 }
 
 .footer {

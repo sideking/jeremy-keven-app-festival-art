@@ -12,10 +12,23 @@
     overflow-x: hidden;
  }
 
+ body.work{
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--bs-dark);
+    overflow-x: hidden;
+ }
+
 .navbar{
     background-color: var(--bs-dark);
     color: var(--bs-info);
   }
+
+.navbar.transparent{
+background-color: transparent;
+color: var(--bs-info);
+margin-top: 25px;
+}
 
 .navbar-toggler{
     background-color: var(--bs-primary);
@@ -27,6 +40,22 @@
 
 .collapse.navbar-collapse .navbar-brand:hover{
     color: var(--bs-secondary);
+}
+
+.back{
+        background-color: var(--bs-primary);
+        border-radius: 20%;
+        border-color: var(--bs-secondary);
+}
+
+.bi.bi-arrow-left{
+    color: var(--bs-secondary);
+    background-color: var(--bs-primary);
+}
+
+.oeuvre {
+    height: 33vh;
+    width: 100%;
 }
 
 .navbar-brand{
@@ -49,6 +78,40 @@ span.navbar-toggler-icon{
 }
 .navbar-brand:hover{
     color: var(--bs-secondary);
+}
+
+.bi.bi-hand-thumbs-up{
+    transform: scale(3);
+}
+
+.bi.bi-hand-thumbs-up-fill {
+    display: none;
+    transform: scale(3);
+}
+/*------artwork section ------*/
+.titre{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--bs-secondary);
+    text-shadow: 2px 2px var(--bs-info);
+    text-decoration: underline;
+} 
+
+.bi.bi-calendar-fill{
+    color: var(--bs-light);   
+}
+.bi.bi-geo-alt-fill {
+    color: var(--bs-light);
+    margin-bottom: 0;
+
+    
+}
+
+.date{
+    color: var(--bs-info);
+}
+.lieu {
+    color: var(--bs-info);
 }
 /*------search section ------*/
 
@@ -101,7 +164,7 @@ button.btn.btn-dark{
 }
 /*------ Others ------*/
 
-main{
+.premium {
     margin-top: 100px;
     background-color:var(--bs-light);
 }
@@ -178,6 +241,7 @@ h2{
     transform: scale(0.6);
 }
 
+
 #caroussel {
     width: 140%;
 }
@@ -196,4 +260,12 @@ h2{
     height:25%;
     width: 25%;
     transform: scaleY(1.8);
+ }
+
+
+ @media screen and (min-width: 768px) {
+    .title-break {
+        display: none;
+    }
+    
  }
