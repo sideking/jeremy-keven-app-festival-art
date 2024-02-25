@@ -46,19 +46,72 @@
                 <p class="date d-inline"> 15 Septembre 2022</p>
             </span>
         </section>
-        <sectrion class="info-auteurs">
+        <sectrion class="info-developper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card">
-                            <img class="card-images mt-3 mb-1 mx-auto" src="../assets/Image/tokita_Takashi_pic.PNG">
+                        <div id="oeuvre" class="card">
+                            <img id="developper" class="card-images mt-3 mb-1 mx-auto" src="../assets/Image/tokita_Takashi_pic.PNG">
+                            <div class="card-body">
+                                <div id="nom-developper" class="card-title text-center"> Tokita Takashi </div><br><br>
+                                <p id="takashi-info" class="card-text text-center">Tokita Takashi, né le 24 janvier 1965, est un développeur de jeux vidéo japonais travaillant pour Square Enix. Il y travaille depuis 1985 et a travaillé en tant que concepteur principal de Final Fantasy IV ainsi que réalisateur de Live A Live, Parasite Eve et Chrono Trigger.</p>
+                            <!--source de l'infromation sur Tokita Takashi fut prise sur le sit suivant: https://en.wikipedia.org/wiki/Takashi_Tokita -->
+                            <br><br><br><br>
+                            <button type="button" class="btn btn-info offset-4" data-bs-toggle="modal"
+                            data-bs-target="#popup"> En savoir plus </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </sectrion>
-        
-      
+        <br><br><br><br><br><br><br>
+        <section>
+            <h2 class="oeuvre text-center pb-5">Description de l'oeuvre</h2>
+            <!--source de l'infromation sur Tokita Takashi fut prise sur le sit suivant en anglais: https://j-mediaarts.jp/en/award/single/cyberpunk-2077/ et traduit à l'aide du site suivant: https://www.deepl.com/fr/translator#en/fr/Combining%20different%20options%20allows%20highly%20flexible%20customization%20of%20the%20appearance%20as%20well%20as%20abilities%20of%20V%2C%20a%20near-future%20urban%20dweller.%20In%20this%20epic%20game%2C%20a%20player%20can%20enjoy%20a%20story%20that%20changes%20according%20to%20the%20player%E2%80%99s%20choices%20and%20actions%2C%20while%20moving%20around%20this%20vast%20and%20tangled%20city%20from%20the%20glamorous%20downtown%20to%20hideouts%20of%20gangsters. -->
+            <p class="oeuvre-description text-center d-flex mb-5"> Il s'agit d'un jeu d'action et d'aventure qui se déroule dans une ville d'un futur proche. Les joueurs personnalisent leur apparence et leurs armes tout en suivant un scénario complexe. Le personnage principal, V, est chargé de rechercher un mystérieux implant (une puce placée dans le cerveau). En tant que V, le joueur accomplit un certain nombre de tâches dans la ville tentaculaire de Night City, tout en étant tiraillé par les intentions d'autres personnages aux antécédents divers. Les joueurs peuvent acheter des armes et des véhicules avec l'argent de la récompense, et peuvent également améliorer les capacités physiques de V en installant des implants appelés cyberware dans son corps. Il est possible de choisir une mode excentrique parmi un large éventail d'options. La combinaison de différentes options permet une personnalisation très flexible de l'apparence et des capacités de V, un citadin d'un futur proche. Dans ce jeu épique, le joueur peut profiter d'une histoire qui évolue en fonction de ses choix et de ses actions, tout en se déplaçant dans cette ville vaste et enchevêtrée, du centre-ville glamour aux repaires de gangsters.</p>
+        </section>
+        <section>
+            <div class="accordion accordion-flush" id="reservation-accordeon">
+
+                <div class="accordion-item">
+              
+                  <h2 class="accordion-header" id="tete-accordeon">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ecrapoutit" aria-expanded="true" aria-controls="ecrapoutit">
+                    Résercez votre place
+                    </button>
+                  </h2>
+                  <div id="ecrapoutit" class="accordion-collapse collapse" 
+                  aria-labelledby="tete-accordeon" data-bs-parent="#reservation-accordeon">
+                    <div class="accordion-body">
+                      <form action="index.html" class="inscription">
+                        <div class="mb-3">
+                            <label for="InputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="secruriter-e-mail">
+                            <div id="secruriter-e-mail" class="form-text">Votre E-mail ne sera pas divulger, je crois...</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="InputFirstName" class="form-label">Pré-Nom</label>
+                            <input type="text" class="form-control" id="InputFirstName" aria-describedby="prenom-incognito">
+                            <div id="prenom-incognito" class="form-text">Votre prénom ne sera pas divulger, quoi que...</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="InputLastName" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="InputLastName" aria-describedby="nom-incognito">
+                            <div id="nom-incognito" class="form-text">Votre nom de famille restara privé, pour l'instant...</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="InputDate" class="form-label">Date de l'inscriprition</label>
+                            <input type="date" class="form-control" id="InputDate" aria-describedby="auj">
+                            <div id="auj" class="form-text">Votre date d'incription sera publique pour fin de recensement.</div>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Confirmer l'inscription</button>
+                      </form>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+        </section>
     </main>
     <footer class="mt-3 p-3 f">
         <div class="containe-fluid">
@@ -80,5 +133,23 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <div class="modal fade" tabindex="-1" id="popup">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Tokita Takashi</h2>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+                fenêtre"></button>
+            </div>
+            <div class="modal-body">
+                <!--l'informatiom de la bio à été prise sur le sit suivant: https://finalfantasy.fandom.com/wiki/Takashi_Tokita -->
+                <p>Tokita est entré dans l'industrie du jeu vidéo alors qu'il était parti à Tokyo pour devenir acteur à l'âge de dix-huit ans, mais il a vu une annonce pour un poste de concepteur graphique dans une ancienne société de logiciels. <br> Il a d'abord été employé à temps partiel pour des travaux de conception graphique et de son. Il est ensuite passé à temps plein lorsqu'il est devenu le concepteur principal de Final Fantasy IV en 1991. Tokita estime que Final Fantasy IV est le premier jeu de la série à s'intéresser réellement à l'aspect dramatique et le premier RPG japonais à présenter "des personnages et une intrigue aussi profonds". <br>Outre son travail sur la série Final Fantasy, Tokita a réalisé quelques autres projets pour Square Enix. Il a réalisé Parasite Eve - Chrono Trigger et produit la série Hanjuku Hero et Nanashi no Game pour la Nintendo DS. Ces projets devaient être localisés en anglais, mais ont été annulés par des groupes de discussion. Tokita a exprimé son intérêt pour la création de jeux avec des personnages excentriques. <br>Son autre œuvre notable est Live A Live, un RPG d'aventure à choisir pour la Super Famicom qui n'a jamais quitté le Japon jusqu'au remake de 2022 sur Nintendo Switch. La nature épisodique de Live A Live servira plus tard de base aux titres réalisés par Tokita, notamment Final Fantasy IV : The After Years, Final Fantasy Dimensions et Final Fantasy Dimensions II.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-bs-dismiss="modal">Annuler</button>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
