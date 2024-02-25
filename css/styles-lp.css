@@ -143,6 +143,20 @@ hr {
     color: var(--bs-light);
 }
 
+.card > img {
+    height:  20vh;
+    object-fit: cover;
+}
+
+.bit-down {
+    object-position: 0 10%;
+}
+
+.bit-bit-down {
+    object-position: 0 20%;
+}
+
+
 
 /*------ Footer ------*/
 
