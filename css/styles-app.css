@@ -113,8 +113,15 @@ footer{
 }
 
 .card.caroussel {
+    height: 50vh;
     background-color: var(--bs-light);
     max-width: 200px;
+    border: 3px solid var(--bs-dark);
+}
+
+.card {
+    margin-top: 30px;
+    background-color: var(--bs-light);
     border: 3px solid var(--bs-dark);
 }
 
@@ -148,7 +155,9 @@ p.card-text{
  }
 
  p.ms-auto.mb-0{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    margin-right: 0;
     color: var(--bs-info);
     background-color: var(--bs-dark);
     border: 10px solid var(--bs-dark);
@@ -162,6 +171,11 @@ a {
 h2{
     font-weight: bold;
     color: var(--bs-dark);
+}
+
+.bi.bi-caret-right-fill {
+    margin-left: 0;
+    transform: scale(0.6);
 }
 
 #caroussel {
