@@ -43,14 +43,16 @@ margin-top: 25px;
 }
 
 .back{
-        background-color: var(--bs-primary);
-        border-radius: 20%;
+    transform: scale(1.5); 
+    background-color: var(--bs-primary);
+        border-radius: 50px;
         border-color: var(--bs-secondary);
 }
 
 .bi.bi-arrow-left{
     color: var(--bs-secondary);
     background-color: var(--bs-primary);
+    border-radius: 50px;
 }
 
 .oeuvre {
@@ -82,14 +84,18 @@ span.navbar-toggler-icon{
 
 .bi.bi-hand-thumbs-up{
     color: var(--bs-primary);
-    transform: scale(3);
+    background-color: var(--bs-light);
+    transform: scale(3,2.5);
+    border: 2px ridge var(--bs-secondary);
 }
 
 .bi.bi-hand-thumbs-up-fill {
     color: var(--bs-info);
     text-shadow: 1.5px 1.5px var(--bs-dark);
+    background-color: var(--bs-light);
     display: none;
-    transform: scale(3);
+    transform: scale(3,2.5);
+    border: 2px  ridge var(--bs-secondary);
 }
 
 .btn.btn-info{
@@ -105,6 +111,11 @@ span.navbar-toggler-icon{
 
 
 /*------artwork section ------*/
+
+#tim{
+    max-width: 100px;
+}
+
 .titre{
     font-weight: bolder;
     font-size: 4rem;
@@ -247,6 +258,8 @@ button.btn:hover {
 }
 
 
+bi bi-caret-right-fill
+
 
 /*------search section ------*/
 
@@ -303,6 +316,7 @@ button.btn.btn-dark{
   
    border: 2px solid var(--bs-secondary);
    color: var(--bs-info);
+   white-space: nowrap;
 }
 
 
@@ -325,8 +339,8 @@ footer{
 
 .card.caroussel {
     height: 50vh;
-    background-color: var(--bs-light);
     max-width: 200px;
+    background-color: var(--bs-light);
     border: 3px solid var(--bs-dark);
 }
 
@@ -336,12 +350,20 @@ footer{
     border: 3px solid var(--bs-dark);
 }
 
+
 img.card-images {
     width: 75%;
     object-fit: cover;
     height: 20vh;
     border: 3px solid var(--bs-secondary);
-    border-radius: 20%;
+    border-radius: 40px;
+}
+
+#toupi{
+    width: auto;
+    height: 20vw; 
+    border-radius: 0%;
+    border: 0;
 }
 
 h3.card-title {
@@ -366,13 +388,13 @@ p.card-text{
  }
 
  p.ms-auto.mb-0{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: bolder;
     margin-right: 0;
     color: var(--bs-info);
     background-color: var(--bs-dark);
     border: 10px solid var(--bs-dark);
-    border-radius: 40%;
+    border-radius: 10px;
  }
 
 a {

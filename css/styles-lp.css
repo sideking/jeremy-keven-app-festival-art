@@ -38,23 +38,26 @@ body {
 /*------ Main section ------*/
 
 main {
-    margin-top: 101px;
+    margin-top: 76px;
 }
 
-main .container {
+/*main .container {
     border-left: 3px solid var(--bs-secondary);
-}
+}*/
 
 /*----------------- Couleur main --------------*/
 .row.main {
     width: 100%;
     height: 100%;
-    border-right: 3px solid var(--bs-secondary);
+    /*border-right: 3px solid var(--bs-secondary);*/
 }
 
 #appli, #temoin, #temoin-card, #email{
-    background-color: var(--bs-primary);
     padding-bottom: 50px;
+}
+
+#bg-mauve {
+    background-color: var(--bs-primary);
 }
 
 /*------ Hero section ------*/
@@ -64,10 +67,8 @@ main .container {
 }
 
 .bienfaits {
-    text-align: center;
     font-size: 18px;
     color: var(--bs-light);
-    border: var(--bs-secondary) 2px solid;
     padding: 5px;
 }
 
@@ -204,7 +205,8 @@ hr {
 
 #section-email > div > div > h2,
 #section-email > div > div {
-    color: var(--bs-light);
+    color: var(--bs-dark);
+    font-weight: bold;
 }
 
 #email {
@@ -213,11 +215,11 @@ hr {
 }
 
 .infolettre {
-    background-color: var(--bs-secondary);
+    background-color: var(--bs-info);
 }
 
 :root {
-    --wtf: 221, 28, 26;
+    --wtf: 198, 161, 91;
 }
 
 @media screen and (max-width: 768px) {
@@ -277,7 +279,7 @@ button.btn.btn-primary.abonne:active {
     background-color: var(--bs-light);
 }
 
-.inscrire {
+.anul-modal {
     background-color: var(--bs-primary);
     color: var(--bs-info);
     font-weight: bold;
@@ -288,7 +290,7 @@ button.btn.btn-primary.abonne:active {
     color: var(--bs-dark);
 }
 
-.anul-modal {
+.inscrire {
     background-color: var(--bs-secondary);
     color: var(--bs-dark);
     font-weight: bold;

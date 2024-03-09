@@ -4,7 +4,7 @@
     --bs-primary: #71697A;
     --King-Crimson: #DD1C1A;
     --Star-Platinum: #DDDDDD;
-    --bs-info: #C6A15B;
+    --Gold-Experience: #C6A15B;
 }*/
 /*------ fonts ------*/
 @font-face {
@@ -22,40 +22,40 @@
     src: url("../assets/Fonts/ModernAntiqua-Book.ttf") format("truetype");
 }
 /*------ Writting styles ------*/
-h1{
+h1, .h1{
     font-size: 60px;
     font-weight: bolder;
     color: var(--bs-info);
     font-family: "Japon";
 }
 
-h2{
+h2, .h2{
     font-size: 30px;
     font-weight: bolder;
     color: var(--bs-dark);
     font-family: "Modern-Antiqua";
 }
 
-h3{
+h3, .h3{
     font-size: 26px;
     font-weight: bolder;
     color: var(--bs-primary);
     font-family: "Modern-Antiqua";
 }
 
-h4{
+h4, .h4{
     font-size: 22px;
     font-weight: bolder;
     color: var(--bs-dark);
 }
 
-h5{
+h5, .h5{
     font-size: 18px;
     font-weight: bolder;
     color: var(--bs-info);
 }
 
-h6{
+h6, .h6{
     font-size: 14px;
     font-weight: bolder;
     color: var(--bs-secondary);
