@@ -9,6 +9,10 @@
       href="./assets/Image/average.png"
       type="image/x-icon"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link href="./scss/custom_bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/styles-lp.css" />
@@ -49,10 +53,11 @@
             <a class="nav-link navbar-brand" href="#section-features"
               >Fontionnalités</a
             >
+            <a class="nav-link navbar-brand" href="#View-more">En voir plus</a>
             <a class="nav-link navbar-brand" href="#section-testimonials"
               >Témoignages</a
             >
-            <a class="nav-link navbar-brand" href="#FAQ">En voir plus</a>
+            
             <a class="nav-link navbar-brand" href="#email">Infolettre</a>
           </div>
         </div>
@@ -94,7 +99,7 @@
         </div>
       </div>
 </section>
-<section id="bg-blanc">
+<section id="bg-mauve">
       <div class="container pb-5" id="section-features">
         <div class="row main justify-content-center" id="fonction">
           <div class="col-6 text-center pt-5"><h2>Fonctionnalités</h2></div>
@@ -281,6 +286,37 @@
       </div>
 </section>
 <section id="bg-mauve">
+  <div class="container py-4" id="View-more">
+    <div class="row pb-3">
+      <div class="col text-center">
+        <h2>Prévisualisez l'interface de l'appli.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="swiper swiper-screenshots">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/Image/Phone_index_haut.png" alt="non" data-swiper-parallax-scale="0.6" data-swiper-parallax-opacity="0.5">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Image/Phone_index_bas.png" alt="non" data-swiper-parallax-scale="0.6" data-swiper-parallax-opacity="0.5">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Image/Phone_artwork_haut.png" alt="non" data-swiper-parallax-scale="0.6" data-swiper-parallax-opacity="0.5">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Image/Phone_artwork_bas.png" alt="non" data-swiper-parallax-scale="0.6" data-swiper-parallax-opacity="0.5">
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="bg-mauve">
       <div class="container pb-3" id="section-testimonials">
         <div class="row main justify-content-center" id="temoin">
           <div class="col-6 text-center pt-5"><h2>Témoignages</h2></div>
@@ -451,7 +487,7 @@
         </div>
       </div>
     </section>
-<section id="bg-blanc">
+<section id="bg-mauve">
       <div class="container py-5" id="FAQ">
         <div class="row main">
           <h2 class="py-4">FAQ - Foire aux questions</h2>
@@ -550,7 +586,7 @@
         </div>
       </div>
     </section>
-<section id="bg-blanc">
+<section id="bg-mauve">
       <div class="container pb-5 pt-3" id="section-email">
         <div class="row main text-center text-md-start justify-content-end py-4" id="email">
           <div class=" col col-md-6 infolettre mx-3 py-3 ">
@@ -587,12 +623,6 @@
         </div>
       </div>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/script.js"></script>
     <div class="modal fade" tabindex="-1" id="popup">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -619,5 +649,12 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

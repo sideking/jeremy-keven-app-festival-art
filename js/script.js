@@ -16,3 +16,27 @@ unlike.addEventListener("click", function (){
 })   
 }
 
+if (thisURL == "/index.html") {
+    const mySwiperOne = new Swiper (".swiper-screenshots ", {
+        loop: true,
+        parallax:true,
+        centeredSlides: true,
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+
+        breakpoints: {
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 20
+            }}
+    });
+} else if(thisURL == "/app/index.html") {
+    const mySwiperOne = new Swiper (".swiper-filters ", {
+        slidesPerView: 6,
+        spaceBetween: 20,
+        
+    })
+}

@@ -7,14 +7,13 @@
 }
  body{
     height: 100%;
-    overflow-x: hidden;
     background-color: var(--bs-light);
     overflow-x: hidden;
  }
 
  body.work{
     height: 100%;
-    overflow-x: hidden;
+
     background-color: var(--bs-dark);
     overflow-x: hidden;
  }
@@ -293,14 +292,16 @@ bi bi-caret-right-fill
 
 
 
-
+.swiper-slide {
+    width: fit-content;
+}
 
 
 
 /*------boutons------*/
-.overflow{
+/*.overflow{
     overflow: hidden;
-}
+}*/
 #bouton {
     border-top: 3px solid var(--bs-primary);
     border-bottom: 3px solid var(--bs-primary);
