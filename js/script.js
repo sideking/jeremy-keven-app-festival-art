@@ -1,7 +1,4 @@
-const thisURL = window.location.pathname;
-console.log(thisURL)
-
-if (thisURL == "/app/artwork.html") {
+if (document.querySelector(".bi-hand-thumbs-up")) {
  let like = document.querySelector(".bi-hand-thumbs-up");
 let unlike = document.querySelector(".bi-hand-thumbs-up-fill");
 like.addEventListener("click", function (){
@@ -16,8 +13,8 @@ unlike.addEventListener("click", function (){
 })   
 }
 
-if (thisURL == "/index.html") {
-    const mySwiperOne = new Swiper (".swiper-screenshots ", {
+if (document.querySelector(".swiper-screenshots")) {
+    const mySwiperOne = new Swiper (".swiper-screenshots", {
         loop: true,
         parallax:true,
         centeredSlides: true,
@@ -33,14 +30,14 @@ if (thisURL == "/index.html") {
               spaceBetween: 20
             }}
     });
-} else if(thisURL == "/app/index.html") {
-    const mySwiperOne = new Swiper (".swiper-filters ", {
+} else if(document.querySelector(".swiper-filters")) {
+    const mySwiperOne = new Swiper (".swiper-filters", {
         slidesPerView: "auto",
         spaceBetween: 10,
         focusableElements: false,
         
     });
-    const mySwiperTwo = new Swiper (".swiper-featured-artwork ", {
+    const mySwiperTwo = new Swiper (".swiper-featured-artwork", {
         slidesPerView: "2.3",
         spaceBetween: 10,
         lazyloading: true,
