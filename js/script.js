@@ -21,13 +21,13 @@ if (thisURL == "/index.html") {
         loop: true,
         parallax:true,
         centeredSlides: true,
-
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
 
         breakpoints: {
+
             1200: {
               slidesPerView: 3,
               spaceBetween: 20
@@ -35,8 +35,23 @@ if (thisURL == "/index.html") {
     });
 } else if(thisURL == "/app/index.html") {
     const mySwiperOne = new Swiper (".swiper-filters ", {
-        slidesPerView: 6,
-        spaceBetween: 20,
+        slidesPerView: "auto",
+        spaceBetween: 10,
+        focusableElements: false,
         
-    })
+    });
+    const mySwiperTwo = new Swiper (".swiper-featured-artwork ", {
+        slidesPerView: "2.3",
+        spaceBetween: 10,
+        lazyloading: true,
+        effect:'coverflow',
+        initialSlide: 1,
+        centeredSlides: true,
+        coverflowEffect: {
+            rotate: 15,
+            slideShadows: false,
+            depth: 50,
+          },
+    });
+
 }

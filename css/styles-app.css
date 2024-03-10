@@ -290,13 +290,9 @@ bi bi-caret-right-fill
     color: var(--bs-primary);
 }
 
-
-
 .swiper-slide {
     width: fit-content;
 }
-
-
 
 /*------boutons------*/
 /*.overflow{
@@ -414,7 +410,7 @@ h2{
 
 
 #caroussel {
-    width: 140%;
+    overflow: hidden;
 }
 
 .rounded-circle.full{

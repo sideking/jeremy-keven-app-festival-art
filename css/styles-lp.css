@@ -147,15 +147,12 @@ hr {
 .swiper-screenshots > div > div > img {
     height: 500px;
     filter: drop-shadow(10px 10px 10px var(--bs-dark));
-    transform: scale(0.9);
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
     color: var(--bs-dark);
     aspect-ratio: 1/1;
-    height: 100%;
-
 }
 
 /*------ Temoin ------*/
