@@ -31,13 +31,13 @@ if (document.querySelector(".swiper-screenshots")) {
             }}
     });
 } else if(document.querySelector(".swiper-filters")) {
-    const mySwiperOne = new Swiper (".swiper-filters", {
+    const mySwiperTwo = new Swiper (".swiper-filters", {
         slidesPerView: "auto",
         spaceBetween: 10,
         focusableElements: false,
         
     });
-    const mySwiperTwo = new Swiper (".swiper-featured-artwork", {
+    const mySwiperThree = new Swiper (".swiper-featured-artwork", {
         slidesPerView: "2.3",
         spaceBetween: 10,
         lazyloading: true,
